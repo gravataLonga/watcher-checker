@@ -1,0 +1,34 @@
+{
+    "name": "gravatalonga/watcher-checker",
+    "description": "Skeleton and an framework to run status checker upon on domain / services",
+    "type": "library",
+    "require-dev": {
+        "phpunit/phpunit": "^9.5",
+        "guzzlehttp/guzzle": "^7.4"
+    },
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "Gravatalonga\\WatcherChecker\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Tests\\": "tests/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Jonathan Fontes",
+            "email": "jonathan.alexey16@gmail.com"
+        }
+    ],
+    "require": {
+        "psr/http-client": "^1.0",
+        "psr/http-factory": "^1.0",
+        "gravatalonga/hydrator": "^1.0"
+    },
+    "scripts": {
+        "test": "./vendor/bin"
+    }
+}
